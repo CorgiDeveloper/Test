@@ -1,0 +1,36 @@
+:root {
+#app-mount .layers-3iHuyZ {
+  margin: var(--window-padding);
+  overflow: hidden;
+  border-radius: var(--window-roundness);
+}
+
+#app-mount .winButton-iRh8-Z {
+  top: calc(var(--window-padding) - 1px);
+  right: var(--window-padding);
+}
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: var(--font, "Whitney");
+}
+
+#app-mount .perksModal-fSYqOq {
+  background-color: rgba(0, 0, 0, var(--middle-brightness));
+  background-image: none;
+  margin: var(--window-padding);
+  border-radius: var(--window-roundness);
+}
+
+html.platform-osx .macButtons-2MuSAC {
+  position: absolute;
+  top: var(--window-padding);
+  left: var(--window-padding);
+  background: rgba(0, 0, 0, var(--serverlist-brightness));
+  width: 72px;
+  border-top-left-radius: var(--window-roundness);
+}
+
+#app-mount .xenoLib-notifications {
+  padding: calc(var(--window-padding) * 2 + 48px) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2);
+  box-sizing: border-box;
+  }
+}
